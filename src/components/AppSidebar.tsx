@@ -18,31 +18,37 @@ const navigationItems = [
     title: "Главная",
     url: "/dashboard",
     icon: LayoutDashboard,
+    badge: undefined as string | undefined,
   },
   {
     title: "Клиенты",
     url: "/clients",
     icon: Users,
+    badge: undefined as string | undefined,
   },
   {
     title: "Заказы",
     url: "/orders",
     icon: ShoppingCart,
+    badge: undefined as string | undefined,
   },
   {
     title: "Трекинг",
     url: "/tracking",
     icon: MapPin,
+    badge: undefined as string | undefined,
   },
   {
     title: "Калькулятор",
     url: "/calculator",
     icon: Calculator,
+    badge: undefined as string | undefined,
   },
   {
     title: "Документы",
     url: "/documents",
     icon: FileText,
+    badge: undefined as string | undefined,
   },
 ];
 
